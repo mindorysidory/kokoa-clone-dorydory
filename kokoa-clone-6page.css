@@ -1,0 +1,118 @@
+.kokoa_pay {
+    background-color: #fae100;
+    width: 500px;
+    height: 200px;
+    box-sizing: border-box;
+    padding: 30px 25px;
+  }
+  .kokoa_pay__head_bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .kokoa_pay__head_bar_left {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-weight: bold;
+  }
+  .kokoa_pay__head_bar_left i {
+    margin-left: 5px;
+  }
+  .kokoa_pay__head_bar_left div {
+    font-size: 18px;
+  }
+  .kokoa_pay__head_bar_right {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+  .kokoa_pay__head_bar_right i {
+    margin-right: 5px;
+  }
+  .kokoa_pay__guide {
+    background-color: #fefce5;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-weight: bold;
+    width: 440px;
+    height: 50px;
+    border-radius: 5px;
+    padding-left: 15px;
+    box-sizing: border-box;
+  }
+  .kokoa_pay__guide i {
+    color: #2b58f8;
+    margin-right: 5px;
+  }
+  .kokoa_pay__payment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .kokoa_pay__payment_left {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  .kokoa_pay__payment_left i {
+    margin-right: 5px;
+  }
+  .kokoa_pay__underbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .kokoa_pay__underbar_left {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  .kokoa_pay__underbar_left div {
+    margin-right: 30px;
+  }
+  .kokoa_pay__underbar_right {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+  .kokoa_pay__underbar_right i {
+    margin-right: 5px;
+  }
+  .kokoa_pay_icon__line_up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    margin: 30px 40px 10px 40px;
+  }
+  .kokoa_pay_icon__line_up i {
+    width: 70px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.8);
+  }
+  .kokoa_pay_icon__line_down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    margin: 0px 40px 10px 40px;
+  }
+  .kokoa_pay_icon__line_down div {
+    width: 70px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

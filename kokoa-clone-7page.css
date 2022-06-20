@@ -1,0 +1,49 @@
+.setting div {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+  }
+  .setting div i {
+    margin-right: 10px;
+  }
+  .setting div :nth-child(2) {
+    padding-top: 10px;
+  }
+  .setting div :nth-child(3) {
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    font-size: 10px;
+    width: 12px;
+    height: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1px;
+    position: absolute;
+    left: 93px;
+    top: 15px;
+    animation: notificationAnimation 2s ease-in-out infinite;
+  }
+  .setting_underline {
+    width: 500px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+  .setting div div span {
+    color: gray;
+    font-size: 10px;
+    position: absolute;
+    bottom: -15px;
+    left: 0px;
+  }
+  .setting div div {
+    position: relative;
+  }
